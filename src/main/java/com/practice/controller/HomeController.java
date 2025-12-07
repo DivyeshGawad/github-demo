@@ -13,4 +13,9 @@ public class HomeController {
         System.out.println("Home Controller");
         return "Welcome to GitHub Demo Added new Changes";
     }
+
+    @GetMapping("/greet")
+    public String greet(){
+        return "Greetings";
+    }
 }
