@@ -11,7 +11,7 @@ public class HomeController {
     @GetMapping
     public String demo(){
         System.out.println("Home Controller");
-        return "Welcome to GitHub Demo Added new Pull Changes";
+        return "Welcome to GitHub Demo Added new Fetch Changes";
     }
 
     @GetMapping("/greet")
