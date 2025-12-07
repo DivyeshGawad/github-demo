@@ -11,6 +11,6 @@ public class HomeController {
     @GetMapping
     public String demo(){
         System.out.println("Home Controller");
-        return "Welcome to GitHub Demo Added new Branch";
+        return "Welcome to GitHub Demo Added new Changes";
     }
 }
